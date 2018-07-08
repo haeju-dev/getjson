@@ -1,4 +1,4 @@
-# # getjson
+## getjson
 
 Send a Get/Post request and return as dictionary
 
@@ -6,12 +6,13 @@ Send a Get/Post request and return as dictionary
 ## Usage
 
 ### Example
-'''python
+
+```python
 from getjson import getjson
 url = 'https://api.bithumb.com/public/ticker/'
 param = {'currency' : 'BTC'}
 print(getjson(requesttype = 'get', url = url, params = param))
-'''
+```
 
 ### param
 
