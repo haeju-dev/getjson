@@ -8,9 +8,9 @@ def getjson(requesttype, url, params=None, timeout=10.0, maxtry=5, sleeptime=0.1
     :param requesttype: 'get' or 'post', Uppercase Support
     :param url: a url
     :param params: a python dictionary
-    :param timeout: timeout of each requests
+    :param timeout: timeout of each requests, sec
     :param maxtry:
-    :param sleeptime:
+    :param sleeptime: sleep time for each requests, sec
     :param headers:
     :param cookies:
 
